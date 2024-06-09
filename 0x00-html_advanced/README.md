@@ -8,3 +8,4 @@ Inline quote
 small tag
 address tag
 pre tag
+table > scope attr
