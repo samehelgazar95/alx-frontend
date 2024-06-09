@@ -9,3 +9,4 @@ small tag
 address tag
 pre tag
 table > scope attr
+summary tag
