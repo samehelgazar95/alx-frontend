@@ -7,3 +7,4 @@ blockquote and cite tags
 Inline quote
 small tag
 address tag
+pre tag
