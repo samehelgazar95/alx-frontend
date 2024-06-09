@@ -2,5 +2,8 @@ UGLY WEBSITE WITH JUST HTML
 
 overall hierarchy
 testimonials 29
-favicon
+favicons
+blockquote and cite tags
 Inline quote
+small tag
+address tag
