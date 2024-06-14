@@ -1,0 +1,51 @@
+:root {
+  --color-primary: #d73953;
+  --color-black: #090909;
+  --color-white: #ffffff;
+  --color-light-grey: #f3f3f3;
+  --color-dark-grey: #353535;
+  --text-color: var(var(--color-black));
+  --font-family-base: 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
+  --font-family-title: var(--font-family-base);
+  --font-size-small: 1.2rem; /* 1.2 * 10 = 12px */
+  --font-size-medium: 1.6rem; /* 1.5 * 10 = 16px */
+  --font-size-large: 1.8rem; /* 1.8 * 10 = 18px */
+  --font-size-x-large: 2.3rem; /* 2.3 * 10 = 23px */
+  --font-size-xx-large: 4.8rem; /* 4.8 * 10 = 48px */
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%; /* rem => 16 * 62.5% = 10px*/
+}
+
+body {
+  color: var(--text-color);
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-medium);
+}
+
+a {
+  color: var(--text-color);
+}
+
+.visually-hidden {
+  display: none;
+}
+
+.card-category {
+  color: var(--color-primary);
+}
+
+.section-tagline {
+  color: var(--color-primary);
+}
+
+section h1,
+section h2,
+section h3,
+section h4,
+section h5,
+section h6 {
+  font-family: var(--font-family-title);
+}
